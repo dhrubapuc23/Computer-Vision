@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-24T09:47:19.906Z" agent="5.0 (Windows)" etag="j6gl743wh-2hmKw5yeyS" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-24T09:58:27.835Z" agent="5.0 (Windows)" etag="W1_Eyq0VmMqBE0qg7B_2" version="20.0.1" type="github">
   <diagram id="lazU5OvHfyAV0OO9t7CG" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -82,10 +82,10 @@
             <mxPoint x="109.5" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tgbIbMeUaIrSX3RmPcg8-33" value="Global Average Pooling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="tgbIbMeUaIrSX3RmPcg8-33" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Global Average Pooling&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="758.31" y="550" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tgbIbMeUaIrSX3RmPcg8-34" value="Fully Connected Layer, Softmax" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="tgbIbMeUaIrSX3RmPcg8-34" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Fully Connected Layer, Softmax&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="755.3" y="640" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tgbIbMeUaIrSX3RmPcg8-37" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;fillColor=#e3c800;strokeColor=#B09500;width=12;endSize=6.98;" edge="1" parent="1">
