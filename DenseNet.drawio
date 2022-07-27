@@ -1,45 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T07:21:42.857Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="jO6QbV3ApNup0O91ScZR" version="20.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-27T07:22:16.927Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ru4__K3JvInZ3MzkCy8z" version="20.2.1" type="github">
   <diagram id="f5BqPzd8teQJvRZpAyXV" name="Page-1">
     <mxGraphModel dx="1695" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hOGsSKHKUl2PJO7qdBfS-1" value="Conv 7x7 / Stride 2" style="rounded=0;html=1;direction=west;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;flipH=0;flipV=0;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="50" y="190" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hOGsSKHKUl2PJO7qdBfS-2" value="Max Pool 3x3 / Stride 2" style="rounded=0;html=1;direction=west;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;flipH=0;flipV=0;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="110" y="190" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hOGsSKHKUl2PJO7qdBfS-3" value="Dense Block 1&amp;nbsp;&lt;br&gt;x6" style="rounded=0;html=1;direction=west;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;flipH=0;flipV=0;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="170" y="190" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hOGsSKHKUl2PJO7qdBfS-4" value="Transition Layer" style="rounded=0;html=1;direction=west;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;flipH=0;flipV=0;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="230" y="190" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hOGsSKHKUl2PJO7qdBfS-5" value="Dense Block 2&lt;br&gt;x12" style="rounded=0;html=1;direction=west;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;flipH=0;flipV=0;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="290" y="190" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hOGsSKHKUl2PJO7qdBfS-6" value="Transition Layer" style="rounded=0;html=1;direction=west;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;flipH=0;flipV=0;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="344" y="190" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hOGsSKHKUl2PJO7qdBfS-8" value="Dense Block 3&lt;br&gt;x32" style="rounded=0;html=1;direction=west;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;flipH=0;flipV=0;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="400" y="190" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hOGsSKHKUl2PJO7qdBfS-9" value="Transition Layer" style="rounded=0;html=1;direction=west;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;flipH=0;flipV=0;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="450" y="190" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hOGsSKHKUl2PJO7qdBfS-10" value="Dense Block 4&lt;br&gt;x32" style="rounded=0;html=1;direction=west;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;flipH=0;flipV=0;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="510" y="190" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hOGsSKHKUl2PJO7qdBfS-12" value="Global average pooling" style="rounded=0;html=1;direction=west;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;flipH=0;flipV=0;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="570" y="190" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hOGsSKHKUl2PJO7qdBfS-13" value="Fully Connected Layer, 512" style="rounded=0;html=1;direction=west;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;flipH=0;flipV=0;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="620" y="190" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hOGsSKHKUl2PJO7qdBfS-14" value="Softmax" style="rounded=0;html=1;direction=west;whiteSpace=wrap;fillColor=#b0e3e6;strokeColor=#0e8088;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;flipH=0;flipV=0;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="687" y="190" width="140" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="hOGsSKHKUl2PJO7qdBfS-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#cdeb8b;strokeColor=#36393d;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="357.94" as="sourcePoint" />
@@ -117,12 +81,6 @@
         </mxCell>
         <mxCell id="hOGsSKHKUl2PJO7qdBfS-42" value="&lt;span style=&quot;background-color: rgb(255, 242, 204);&quot;&gt;Fully Connected Layer, 512&lt;/span&gt;&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;html=1;direction=west;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;flipH=0;flipV=0;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="195.79" y="460" width="99.21" height="56.88" as="geometry" />
-        </mxCell>
-        <mxCell id="hOGsSKHKUl2PJO7qdBfS-43" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#cdeb8b;strokeColor=#36393d;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="771.3100000000001" y="410" as="sourcePoint" />
-            <mxPoint x="772.97" y="440" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="hOGsSKHKUl2PJO7qdBfS-44" value="&lt;span style=&quot;background-color: rgb(176, 227, 230);&quot;&gt;Softmax&lt;/span&gt;&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;html=1;direction=west;whiteSpace=wrap;fillColor=#b0e3e6;strokeColor=#0e8088;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;flipH=0;flipV=0;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="107.00000000000001" y="460" width="99.21" height="56.88" as="geometry" />
