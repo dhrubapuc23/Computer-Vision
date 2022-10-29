@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T16:11:34.915Z" agent="5.0 (Windows)" version="20.2.0" etag="nWqzXPcWiSudTEeTRqeI" type="github"><diagram id="J_D55cbx2d_pQjbFALnH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-29T16:23:02.958Z" agent="5.0 (Windows)" etag="Kz1msj-4XF-hI1-YARGq" version="20.2.0" type="github">
+  <diagram id="J_D55cbx2d_pQjbFALnH" name="Page-1">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IoVqTZKb2aHPhe0JlR1h-1" value="&lt;div&gt;Conv1+ReLU&lt;/div&gt;&lt;div&gt;16*W1*H1&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;fontFamily=Times New Roman;direction=west;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="190" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IoVqTZKb2aHPhe0JlR1h-2" value="&lt;div&gt;Conv2+ReLU&lt;/div&gt;&lt;div&gt;32*W3*H3&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;fontFamily=Times New Roman;direction=west;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IoVqTZKb2aHPhe0JlR1h-3" value="&lt;div&gt;Conv3+ReLU&lt;/div&gt;&lt;div&gt;64*W5*H5&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;fontFamily=Times New Roman;direction=west;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="770" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IoVqTZKb2aHPhe0JlR1h-4" value="&lt;div&gt;Conv4+ReLU&lt;/div&gt;&lt;div&gt;128*W7*H7&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;fontFamily=Times New Roman;direction=west;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="930" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
